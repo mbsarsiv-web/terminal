@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kişisel Web Terminali</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 10px 10px 30px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .header-title {
+      color: #1e293b;
+      font-size: 2.2rem; 
+      margin: 5px 0; 
+      text-align: center;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+
+    .section-title {
+      color: #334155;
+      font-size: 1.2rem; 
+      margin: 15px 0 5px 0; 
+      width: 100%;
+      max-width: 1100px;
+      border-bottom: 3px solid #cbd5e1;
+      padding-bottom: 5px;
+      font-weight: 700;
+    }
+
+    .category-title {
+      color: #64748b;
+      font-size: 1rem; 
+      margin: 10px 0 5px 0; 
+      width: 100%;
+      max-width: 1100px;
+      font-weight: 600;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); 
+      gap: 8px; 
+      width: 100%;
+      max-width: 1100px;
+    }
+
+    .grid-apps {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 6px; 
+      padding: 5px 8px; 
+      text-align: center;
+      text-decoration: none;
+      color: #334155;
+      font-weight: 600;
+      font-size: 0.85rem; 
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 25px; 
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Renk Kodlamaları */
+    .border-blue { border-top: 4px solid #38bdf8; }
+    .border-blue:hover { color: #0284c7; }
+
+    .border-green { border-top: 4px solid #10b981; }
+    .border-green:hover { color: #059669; }
+
+    .border-purple { border-top: 4px solid #a855f7; }
+    .border-purple:hover { color: #7e22ce; }
+
+    .border-orange { border-top: 4px solid #f97316; }
+    .border-orange:hover { color: #c2410c; }
+
+    .border-teal { border-top: 4px solid #14b8a6; }
+    .border-teal:hover { color: #0f766e; }
+
+    .border-red { border-top: 4px solid #ef4444; }
+    .border-red:hover { color: #b91c1c; }
+
+    .border-yellow { border-top: 4px solid #eab308; }
+    .border-yellow:hover { color: #ca8a04; }
+
+  </style>
+</head>
+<body>
+
+  <h1 class="header-title">Terminal</h1>
+
+  <h2 class="section-title">Kişisel Uygulamalar</h2>
+  <div class="grid-container grid-apps">
+    <a href="https://takip-kc5h.onrender.com/" target="_blank" class="card border-blue">Canlı Portföy Takibi</a>
+    <a href="https://script.google.com/macros/s/AKfycbzEhCWaIbtt2bjMi-0ZFWzl4qjvLyvTRZuf76zOCOWR9-wt5UNh5XK7GwM86DX_DE-q/exec" target="_blank" class="card border-blue">Getiriler</a>
+    <a href="https://script.google.com/macros/s/AKfycbz19YTB51GwHnWqsYGhi7cdRm-XPzg5uANnxkiLkd63/dev" target="_blank" class="card border-blue">Detaylı Hisse Analizi</a>
+    <a href="https://mbsarsiv-web.github.io/temettu-bot/" target="_blank" class="card border-blue">Temettü Yoğunluk</a>
+    <a href="https://script.google.com/macros/s/AKfycbxR3Qi2TM9AiJzgb8crSg2oIQCQksi_LJ_oR8r03-XI/dev" target="_blank" class="card border-blue">Yabancı Oranları</a>
+    <a href="https://script.google.com/macros/s/AKfycbz8Kuod6OH6dUJZei5slK3TeHLpxH6CrwDeF7soVBIr/dev" target="_blank" class="card border-blue">Spor Takip</a>
+    <!-- Link burada güncellendi -->
+    <a href="https://mbsarsiv-web.github.io/kutuphane/" target="_blank" class="card border-blue">Kütüphane Uygulaması</a>
+    <a href="https://mbsarsiv-web.github.io/bist-takip-sistemi/" target="_blank" class="card border-blue">Getiriler (Yeni)</a>
+    <a href="https://script.google.com/macros/s/AKfycbxvLZygxljkmlaJ5HaMxem7mBl9jFmXtnJIH0o58HtJYCc5uBrSMgFPPzXKMqN2nxrjxA/exec" target="_blank" class="card border-blue">101</a>
+    <a href="https://script.google.com/macros/s/AKfycbzm7gZ-d7eekfPc0nvLF0kPCr7qs1fFq1EIjWNRMSzwmiTKf3ARrsmsxi7YNQEh1btv/exec" target="_blank" class="card border-blue">Bilderberg</a>
+    <a href="https://tby.onrender.com/" target="_blank" class="card border-blue">TBY</a>
+    <a href="https://script.google.com/macros/s/AKfycbyJROfH5gSHXtceR7PoFb2rQMEwhkR-Bfh9GHzyH5yFXeIFJHDCP5OnDd1F9EpTNg3HRQ/exec" target="_blank" class="card border-blue">Dış Bağlantılılar</a>
+    <!-- Yeni Eklenen Market Uygulaması -->
+    <a href="https://script.google.com/macros/s/AKfycbw5c4uhG24_UndpDKZwDune5JIqhw6b0XVs06HjG7QKDGXgB7pPLJPf1_7xgSelXmp5eg/exec" target="_blank" class="card border-blue">Market</a>
+  </div>
+
+  <h2 class="section-title">Alışveriş</h2>
+
+  <div class="category-title">Genel & Pazar Yeri</div>
+  <div class="grid-container">
+    <a href="https://www.akakce.com" target="_blank" class="card border-orange">Akakçe</a>
+    <a href="https://www.cimri.com" target="_blank" class="card border-orange">Cimri</a>
+    <a href="https://www.amazon.com.tr" target="_blank" class="card border-orange">Amazon TR</a>
+    <a href="https://www.hepsiburada.com" target="_blank" class="card border-orange">Hepsiburada</a>
+    <a href="https://www.trendyol.com" target="_blank" class="card border-orange">Trendyol</a>
+    <a href="https://www.sahibinden.com" target="_blank" class="card border-orange">Sahibinden</a>
+    <a href="https://www.n11.com" target="_blank" class="card border-orange">N11</a>
+    <a href="https://www.pttavm.com" target="_blank" class="card border-orange">PttAVM</a>
+    <a href="https://www.pazarama.com" target="_blank" class="card border-orange">Pazarama</a>
+  </div>
+
+  <div class="category-title">Giyim & Markalar</div>
+  <div class="grid-container">
+    <a href="https://www.mavi.com" target="_blank" class="card border-teal">Mavi</a>
+    <a href="https://www.colins.com.tr" target="_blank" class="card border-teal">Colin's</a>
+    <a href="https://www.altinyildizclassics.com" target="_blank" class="card border-teal">Altınyıldız Classics</a>
+    <a href="https://www.flo.com.tr" target="_blank" class="card border-teal">FLO</a>
+    <a href="https://www.ozdilekteyim.com" target="_blank" class="card border-teal">Özdilekteyim</a>
+  </div>
+
+  <div class="category-title">Kitap, Seyahat & Eğitim Alışverişi</div>
+  <div class="grid-container">
+    <a href="https://www.idefix.com" target="_blank" class="card border-red">Idefix</a>
+    <a href="https://www.nadirkitap.com" target="_blank" class="card border-red">NadirKitap</a>
+    <a href="https://www.kitapyurdu.com" target="_blank" class="card border-red">Kitapyurdu</a>
+    <a href="https://www.obilet.com" target="_blank" class="card border-yellow">Obilet</a>
+    <a href="https://www.enuygun.com" target="_blank" class="card border-yellow">Enuygun</a>
+    <a href="https://www.udemy.com" target="_blank" class="card border-purple">Udemy</a>
+  </div>
+
+  <h2 class="section-title">Hızlı Erişim Kaynakları</h2>
+
+  <div class="category-title">Finans & Analiz</div>
+  <div class="grid-container">
+    <a href="https://fintables.com" target="_blank" class="card border-green">Fintables</a>
+    <a href="https://temettucu.com" target="_blank" class="card border-green">Temettücü</a>
+    <a href="https://temettuhisseleri.com" target="_blank" class="card border-green">Temettü Hisseleri</a>
+    <a href="https://malitablolar.com" target="_blank" class="card border-green">Mali Tablolar</a>
+    <a href="https://www.isyatirim.com.tr/" target="_blank" class="card border-green">İş Yatırım</a>
+    <a href="https://www.finbosoft.com/" target="_blank" class="card border-green">Finbosoft</a>
+    <a href="https://www.kap.org.tr/" target="_blank" class="card border-green">KAP</a>
+    <a href="https://tr.tradingview.com/" target="_blank" class="card border-green">TradingView</a>
+    <a href="https://hedeffiyat.com.tr" target="_blank" class="card border-green">Hedef Fiyat</a>
+    <a href="https://www.tefas.gov.tr" target="_blank" class="card border-green">TEFAS</a>
+    <a href="https://www.borsaistanbul.com/veriler/kiymetli-madenler-ve-kiymetli-taslar-piyasasi/referans-fiyatlar" target="_blank" class="card border-green">Altın/Gümüş Referans Fiyatlar</a>
+  </div>
+
+  <div class="category-title">Bulut & Araçlar</div>
+  <div class="grid-container">
+    <a href="https://drive.google.com" target="_blank" class="card border-purple">Google Drive</a>
+    <a href="https://gemini.google.com" target="_blank" class="card border-purple">Google Gemini</a>
+    <a href="https://claude.ai" target="_blank" class="card border-purple">Claude AI</a>
+    <a href="https://notebooklm.google" target="_blank" class="card border-purple">NotebookLM</a>
+    <a href="https://www.deepl.com" target="_blank" class="card border-purple">DeepL Çeviri</a>
+    <a href="https://tez.yok.gov.tr" target="_blank" class="card border-purple">YÖK Tez Merkezi</a>
+    <a href="https://www.hesaplama.net" target="_blank" class="card border-purple">Hesaplama.net</a>
+    <a href="https://online-video-cutter.com" target="_blank" class="card border-purple">Video Cutter</a>
+    <a href="https://www.freeconvert.com" target="_blank" class="card border-purple">FreeConvert</a>
+  </div>
+
+  <div class="category-title">Devlet & Sağlık</div>
+  <div class="grid-container">
+    <a href="https://www.turkiye.gov.tr" target="_blank" class="card border-yellow">E-Devlet</a>
+    <a href="https://www.mhrs.gov.tr" target="_blank" class="card border-yellow">MHRS</a>
+  </div>
+
+  <div class="category-title">İletişim, Medya & Forum</div>
+  <div class="grid-container">
+    <a href="https://web.whatsapp.com" target="_blank" class="card border-red">WhatsApp Web</a>
+    <a href="https://x.com" target="_blank" class="card border-red">X (Twitter)</a>
+    <a href="https://www.youtube.com" target="_blank" class="card border-red">YouTube</a>
+    <a href="https://www.tabii.com" target="_blank" class="card border-red">Tabii</a>
+    <a href="https://www.todtv.com.tr" target="_blank" class="card border-red">TOD TV</a>
+    <a href="https://tvplus.com.tr" target="_blank" class="card border-red">TV+</a>
+    <a href="https://1000kitap.com" target="_blank" class="card border-red">1000Kitap</a>
+    <a href="https://forum.donanimhaber.com" target="_blank" class="card border-red">DonanımHaber</a>
+    <a href="http://vipdepo.net/forum.php" target="_blank" class="card border-red">VIP Depo</a>
+    <a href="https://depodepo.biz" target="_blank" class="card border-red">DepoDepo</a>
+  </div>
+
+  <div class="category-title">Sinema & Dizi</div>
+  <div class="grid-container">
+    <a href="https://www.imdb.com" target="_blank" class="card border-red">IMDb</a>
+    <a href="https://turkcealtyazi.org" target="_blank" class="card border-red">Türkçe Altyazı</a>
+  </div>
+
+</body>
+</html>
